@@ -1,0 +1,193 @@
+.body-container {
+    padding-top: 120px;
+    height: 100%;
+    width:100%;
+   
+    margin-top: 0px; 
+    text-align: center;
+    background-color: #070908;
+  }
+  .hero-section {
+    padding: 50px;
+  }
+  .h2 {
+    font-size: 4rem;
+  }
+
+  .h3 {
+    font-size: 2rem;
+  }
+
+  .services-heading{
+    font-size: 2rem;
+  }
+  
+  .p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .body-image {
+    max-width: 100%;
+    height: auto;
+  }
+.heading-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+
+  
+}
+.whoAreWe-div,
+.hero-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  padding: 50px;
+}
+
+.paragraph-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+.imageDiv{
+    margin-top: 170px;
+}
+
+.image-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-container-two{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.software-dev-image, 
+.multimedia-image,
+.social-media-image,
+.branding-image,
+.graphic-image,
+.web-design-image
+{
+    height: auto;
+    width: 400px;
+    padding: 20px;
+}
+
+.buttons-div{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .heading-div {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .services-heading {
+    font-size: 1.8rem;
+  }
+
+  .h2 {
+    font-size: 3rem;
+  }
+
+  .h3 {
+    font-size: 1.8rem;
+  }
+
+  .image-container,
+  .image-container-two {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .software-dev-image,
+  .multimedia-image,
+  .social-media-image,
+  .branding-image,
+  .graphic-image,
+  .web-design-image {
+    width: 500px;
+  }
+
+  .buttons-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body-container {
+    padding-top: 80px;
+  }
+
+  .heading-div {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .h2 {
+    font-size: 2.5rem;
+  }
+
+  .h3 {
+    font-size: 1.5rem;
+  }
+
+  .p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .software-dev-image,
+  .multimedia-image,
+  .social-media-image,
+  .branding-image,
+  .graphic-image,
+  .web-design-image {
+    width: 60%;
+  }
+
+  .paragraph-div {
+    max-width: 90%;
+  }
+
+  .buttons-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .button img {
+    width: 100%;
+  }
+}

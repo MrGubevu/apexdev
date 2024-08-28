@@ -1,0 +1,49 @@
+.button-image {
+    width: 400px;
+}
+
+.button-with-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.button-text {
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .button-with-image {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .button-image {
+        max-width: 100%;
+    }
+
+    .button-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-with-image {
+        padding: 30px;
+    }
+
+    .button-image {
+        max-width: 100%;
+    }
+
+    .button-text {
+        font-size: 0.9rem;
+    }
+}
